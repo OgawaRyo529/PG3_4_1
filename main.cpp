@@ -12,10 +12,10 @@ int main() {
         std::cout << "次の状態に移行するには1を入力してください: ";
         scanf_s("%d", &input);
         if (input == 1) {
-            enemy.execute();
+            enemy.Update();
         }
         else {
-            std::cout << "無効な入力です。1を入力してください。" << std::endl;
+            std::cout << "1を入力してください。" << std::endl;
         }
     }
 
